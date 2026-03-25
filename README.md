@@ -83,7 +83,7 @@ email: nadeen.guna05@gmail.com
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=Nadeen-Gunathilake&theme=tokyonight&no-frame=true&row=1&column=7)
+![Trophies](https://github-profile-trophy.vercel.app/?username=nadeen-gunathilake&theme=tokyonight&no-frame=true&row=1&column=7)
 
 </div>
 
