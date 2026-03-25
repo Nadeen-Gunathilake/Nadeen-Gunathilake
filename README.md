@@ -79,11 +79,9 @@ email: nadeen.guna05@gmail.com
 
 ---
 
-##  GitHub Trophies
-
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=nadeen-gunathilake&theme=tokyonight&no-frame=true&row=1&column=7)
+![Metrics](https://metrics.lecoq.io/Nadeen-Gunathilake?template=classic&base=header%2C%20activity%2C%20community%2C%20repositories&base.indepth=false&config.timezone=Asia%2FColombo)
 
 </div>
 
