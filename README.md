@@ -69,10 +69,10 @@ email: nadeen.guna05@gmail.com
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Nadeen-Gunathilake&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nadeen-Gunathilake&theme=tokyonight&hide_border=true" width="49%" />
+<img src="https://github-readme-stats-gamma-sage.vercel.app/api?username=Nadeen-Gunathilake&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="49%" />
+<img src="https://streak-stats.demolab.com/?user=Nadeen-Gunathilake&theme=tokyonight&hide_border=true" width="49%" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nadeen-Gunathilake&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" width="49%" />
+<img src="https://github-readme-stats-gamma-sage.vercel.app/api/top-langs/?username=Nadeen-Gunathilake&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" width="49%" />
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nadeen-Gunathilake&theme=tokyo-night&hide_border=true&area=true" width="98%" />
 
 </div>
