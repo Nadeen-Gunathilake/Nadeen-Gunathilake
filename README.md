@@ -91,7 +91,6 @@ email: nadeen.guna05@gmail.com
 
 ##  My Projects
 
-> ⚡ *Auto-updated daily via GitHub Actions*
 
 <!-- PROJECTS:START -->
 <!-- PROJECTS:END -->
@@ -100,7 +99,6 @@ email: nadeen.guna05@gmail.com
 
 ##  Open Source Contributions & Pull Requests
 
->  *Auto-updated daily — PRs I've opened in other repositories*
 
 <!-- CONTRIBUTIONS:START -->
 <!-- CONTRIBUTIONS:END -->
