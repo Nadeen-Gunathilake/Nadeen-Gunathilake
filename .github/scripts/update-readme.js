@@ -1,5 +1,5 @@
-const { Octokit } = require("@octokit/rest");
-const fs = require("fs");
+import { Octokit } from "@octokit/rest";
+import { readFileSync, writeFileSync } from "fs";
 
 const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 const USERNAME = process.env.USERNAME || "Nadeen-Gunathilake";
@@ -8,29 +8,23 @@ async function fetchTopRepos() {
   const { data } = await octokit.repos.listForUser({
     username: USERNAME,
     sort: "updated",
-    per_page: 6,
+    per_page: 10,
     type: "owner",
   });
 
-  // Filter out the profile repo itself and forks
-  const repos = data.filter(
-    (r) => !r.fork && r.name !== USERNAME
-  );
+  const repos = data.filter((r) => !r.fork && r.name !== USERNAME);
 
-  let md = "";
+  let md = "| Repository | Description | Language | Stars | Forks |\n|---|---|---|---|---|\n";
   for (const repo of repos.slice(0, 6)) {
-    const stars = repo.stargazers_count;
-    const forks = repo.forks_count;
     const lang = repo.language || "N/A";
     const desc = repo.description || "No description provided.";
-    md += `| [**${repo.name}**](${repo.html_url}) | ${desc} | ![](https://img.shields.io/badge/-${encodeURIComponent(lang)}-0e75b6?style=flat-square) | ⭐ ${stars} | 🍴 ${forks} |\n`;
+    md += `| [**${repo.name}**](${repo.html_url}) | ${desc} | ![](https://img.shields.io/badge/-${encodeURIComponent(lang)}-0e75b6?style=flat-square) | ⭐ ${repo.stargazers_count} | 🍴 ${repo.forks_count} |\n`;
   }
 
-  return `| Repository | Description | Language | Stars | Forks |\n|---|---|---|---|---|\n${md}`;
+  return md;
 }
 
 async function fetchContributions() {
-  // Fetch PRs opened by user in other repos
   const { data } = await octokit.search.issuesAndPullRequests({
     q: `type:pr author:${USERNAME} -user:${USERNAME} is:merged`,
     sort: "updated",
@@ -53,27 +47,25 @@ async function fetchContributions() {
 }
 
 async function updateReadme() {
-  let readme = fs.readFileSync("README.md", "utf8");
+  let readme = readFileSync("README.md", "utf8");
 
   try {
-    // Update Projects section
     const projects = await fetchTopRepos();
     readme = readme.replace(
       /<!-- PROJECTS:START -->[\s\S]*?<!-- PROJECTS:END -->/,
       `<!-- PROJECTS:START -->\n${projects}\n<!-- PROJECTS:END -->`
     );
 
-    // Update Contributions section
     const contributions = await fetchContributions();
     readme = readme.replace(
       /<!-- CONTRIBUTIONS:START -->[\s\S]*?<!-- CONTRIBUTIONS:END -->/,
       `<!-- CONTRIBUTIONS:START -->\n${contributions}\n<!-- CONTRIBUTIONS:END -->`
     );
 
-    fs.writeFileSync("README.md", readme);
-    console.log("✅ README updated successfully!");
+    writeFileSync("README.md", readme);
+    console.log(" README updated successfully!");
   } catch (err) {
-    console.error("❌ Error updating README:", err.message);
+    console.error(" Error updating README:", err.message);
     process.exit(1);
   }
 }

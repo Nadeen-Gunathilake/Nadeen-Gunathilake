@@ -2,8 +2,8 @@ name: Update README
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # Runs every day at midnight UTC
-  workflow_dispatch:        # Allows manual trigger
+    - cron: '0 0 * * *'
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -26,6 +26,10 @@ jobs:
       - name: Install dependencies
         run: npm install @octokit/rest
 
+      - name: Add type module to package.json
+        run: |
+          echo '{"type":"module"}' > package.json
+
       - name: Fetch and update README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -37,7 +41,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --cached --quiet || git commit -m "🤖 Auto-update: projects & contributions [$(date +'%Y-%m-%d')]"
+          git diff --cached --quiet || git commit -m " Auto-update: projects & contributions [$(date +'%Y-%m-%d')]"
           git push
 
   generate-snake:
