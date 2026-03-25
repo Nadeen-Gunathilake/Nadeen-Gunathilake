@@ -20,7 +20,6 @@ experience: Advanced
 currently_learning: [Kubernetes, Terraform, AWS DevOps]
 ask_me_about: [MERN Stack, DevOps, Cloud, CI/CD, APIs]
 email: nadeen.guna05@gmail.com
-fun_fact: I automate everything I do more than twice 🤖
 ```
 
 ---
