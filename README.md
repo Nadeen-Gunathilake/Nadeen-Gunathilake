@@ -93,6 +93,15 @@ email: nadeen.guna05@gmail.com
 
 
 <!-- PROJECTS:START -->
+| Repository | Description | Language | Stars | Forks |
+|---|---|---|---|---|
+| [**MiniShop**](https://github.com/Nadeen-Gunathilake/MiniShop) | An E-commerce platform implemented with CI DevOps practices | ![](https://img.shields.io/badge/-JavaScript-0e75b6?style=flat-square) | ⭐ 0 | 🍴 0 |
+| [**Java-Group_Project-OOP-2nd-year-1st-semester-**](https://github.com/Nadeen-Gunathilake/Java-Group_Project-OOP-2nd-year-1st-semester-) | No description provided. | ![](https://img.shields.io/badge/-Java-0e75b6?style=flat-square) | ⭐ 0 | 🍴 0 |
+| [**Task_Manager**](https://github.com/Nadeen-Gunathilake/Task_Manager) | To manage tasks | ![](https://img.shields.io/badge/-TypeScript-0e75b6?style=flat-square) | ⭐ 0 | 🍴 0 |
+| [**IWT-project**](https://github.com/Nadeen-Gunathilake/IWT-project) | Website(Online games for school kids) | ![](https://img.shields.io/badge/-CSS-0e75b6?style=flat-square) | ⭐ 0 | 🍴 0 |
+| [**cpc_tracking_api**](https://github.com/Nadeen-Gunathilake/cpc_tracking_api) | No description provided. | ![](https://img.shields.io/badge/-JavaScript-0e75b6?style=flat-square) | ⭐ 0 | 🍴 0 |
+| [**PAF_Lab02**](https://github.com/Nadeen-Gunathilake/PAF_Lab02) | No description provided. | ![](https://img.shields.io/badge/-HTML-0e75b6?style=flat-square) | ⭐ 0 | 🍴 0 |
+
 <!-- PROJECTS:END -->
 
 ---
@@ -101,6 +110,17 @@ email: nadeen.guna05@gmail.com
 
 
 <!-- CONTRIBUTIONS:START -->
+| Pull Request | Repository | Status |
+|---|---|---|
+| [lexora mobile backend for mongodb connection](https://github.com/DhyanMohottie/Lexora/pull/27) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) | ✅ Merged |
+| [research component done](https://github.com/DhyanMohottie/Lexora/pull/26) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) | ✅ Merged |
+| [GNN,symbolic system,fusion network changes done](https://github.com/DhyanMohottie/Lexora/pull/25) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) | ✅ Merged |
+| [addition of llm service](https://github.com/DhyanMohottie/Lexora/pull/24) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) | ✅ Merged |
+| [fusion network](https://github.com/DhyanMohottie/Lexora/pull/23) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) | ✅ Merged |
+| [README.md](https://github.com/DhyanMohottie/Lexora/pull/22) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) | ✅ Merged |
+| [README.md](https://github.com/DhyanMohottie/Lexora/pull/21) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) | ✅ Merged |
+| [README.md](https://github.com/DhyanMohottie/Lexora/pull/20) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) | ✅ Merged |
+
 <!-- CONTRIBUTIONS:END -->
 
 ---
