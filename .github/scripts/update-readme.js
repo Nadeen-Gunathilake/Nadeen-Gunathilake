@@ -14,7 +14,7 @@ async function fetchTopRepos() {
 
   const repos = data.filter((r) => !r.fork && r.name !== USERNAME);
 
-  let md = "| Repository | Description | Language |\n|---|---|---|---|---|\n";
+  let md = "| Repository | Description | Language |\n|---|---|---|\n";
   for (const repo of repos.slice(0, 6)) {
     const lang = repo.language || "N/A";
     const desc = repo.description || "No description provided.";
