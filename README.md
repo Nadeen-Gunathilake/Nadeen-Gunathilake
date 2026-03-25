@@ -16,7 +16,6 @@
 name: Nadeen Gunathilake
 location: Sri Lanka 🇱🇰
 role: Software Engineer / DevOps / Cloud Enthusiast
-experience: Advanced
 currently_learning: [Kubernetes, Terraform, AWS DevOps]
 ask_me_about: [MERN Stack, DevOps, Cloud, CI/CD, APIs]
 email: nadeen.guna05@gmail.com
