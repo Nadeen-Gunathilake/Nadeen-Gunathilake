@@ -14,11 +14,11 @@ async function fetchTopRepos() {
 
   const repos = data.filter((r) => !r.fork && r.name !== USERNAME);
 
-  let md = "| Repository | Description | Language | Stars | Forks |\n|---|---|---|---|---|\n";
+  let md = "| Repository | Description | Language |\n|---|---|---|---|---|\n";
   for (const repo of repos.slice(0, 6)) {
     const lang = repo.language || "N/A";
     const desc = repo.description || "No description provided.";
-    md += `| [**${repo.name}**](${repo.html_url}) | ${desc} | ![](https://img.shields.io/badge/-${encodeURIComponent(lang)}-0e75b6?style=flat-square) | ⭐ ${repo.stargazers_count} | 🍴 ${repo.forks_count} |\n`;
+    md += `| [**${repo.name}**](${repo.html_url}) | ${desc} | ![](https://img.shields.io/badge/-${encodeURIComponent(lang)}-0e75b6?style=flat-square) |\n`;
   }
 
   return md;
@@ -32,14 +32,14 @@ async function fetchContributions() {
   });
 
   if (!data.items.length) {
-    return "_No external pull requests found yet. Keep contributing! 💪_\n";
+    return "_No external pull requests found yet. Keep contributing! _\n";
   }
 
   let md = "| Pull Request | Repository | Status |\n|---|---|---|\n";
   for (const pr of data.items) {
     const repoName = pr.repository_url.replace("https://api.github.com/repos/", "");
     const repoUrl = `https://github.com/${repoName}`;
-    const status = pr.state === "closed" ? "✅ Merged" : "🔄 Open";
+    const status = pr.state === "closed" ? " Merged" : " Open";
     md += `| [${pr.title}](${pr.html_url}) | [${repoName}](${repoUrl}) | ${status} |\n`;
   }
 
