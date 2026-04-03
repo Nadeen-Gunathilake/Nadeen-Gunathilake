@@ -99,6 +99,7 @@ email: nadeen.guna05@gmail.com
 <!-- CONTRIBUTIONS:START -->
 | Pull Request | Repository | Status |
 |---|---|---|
+| [style: switch chatbot page colors to theme-aware](https://github.com/DhyanMohottie/Lexora/pull/30) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) |  Merged |
 | [settings page,login page modified](https://github.com/DhyanMohottie/Lexora/pull/29) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) |  Merged |
 | [login,chatbot page modified](https://github.com/DhyanMohottie/Lexora/pull/28) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) |  Merged |
 | [lexora mobile backend for mongodb connection](https://github.com/DhyanMohottie/Lexora/pull/27) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) |  Merged |
@@ -106,7 +107,6 @@ email: nadeen.guna05@gmail.com
 | [GNN,symbolic system,fusion network changes done](https://github.com/DhyanMohottie/Lexora/pull/25) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) |  Merged |
 | [addition of llm service](https://github.com/DhyanMohottie/Lexora/pull/24) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) |  Merged |
 | [fusion network](https://github.com/DhyanMohottie/Lexora/pull/23) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) |  Merged |
-| [README.md](https://github.com/DhyanMohottie/Lexora/pull/22) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) |  Merged |
 
 <!-- CONTRIBUTIONS:END -->
 
