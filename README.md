@@ -100,6 +100,7 @@ email: nadeen.guna05@gmail.com
 <!-- CONTRIBUTIONS:START -->
 | Pull Request | Repository | Status |
 |---|---|---|
+| [feat:Manage Account page and functionality added](https://github.com/DhyanMohottie/Lexora/pull/33) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) |  Merged |
 | [feat:user data retrieval](https://github.com/DhyanMohottie/Lexora/pull/32) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) |  Merged |
 | [feat:add billing service](https://github.com/dinna-i/mtit/pull/1) | [dinna-i/mtit](https://github.com/dinna-i/mtit) |  Merged |
 | [style: switch signup page,signup_form colors to theme-aware](https://github.com/DhyanMohottie/Lexora/pull/31) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) |  Merged |
@@ -107,7 +108,6 @@ email: nadeen.guna05@gmail.com
 | [settings page,login page modified](https://github.com/DhyanMohottie/Lexora/pull/29) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) |  Merged |
 | [login,chatbot page modified](https://github.com/DhyanMohottie/Lexora/pull/28) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) |  Merged |
 | [lexora mobile backend for mongodb connection](https://github.com/DhyanMohottie/Lexora/pull/27) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) |  Merged |
-| [research component done](https://github.com/DhyanMohottie/Lexora/pull/26) | [DhyanMohottie/Lexora](https://github.com/DhyanMohottie/Lexora) |  Merged |
 
 <!-- CONTRIBUTIONS:END -->
 
