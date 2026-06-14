@@ -87,8 +87,8 @@ email: nadeen.guna05@gmail.com
 | [**Java-Group_Project-OOP-2nd-year-1st-semester-**](https://github.com/Nadeen-Gunathilake/Java-Group_Project-OOP-2nd-year-1st-semester-) | No description provided. | ![](https://img.shields.io/badge/-Java-0e75b6?style=flat-square) |
 | [**Task_Manager**](https://github.com/Nadeen-Gunathilake/Task_Manager) | To manage tasks | ![](https://img.shields.io/badge/-TypeScript-0e75b6?style=flat-square) |
 | [**IWT-project**](https://github.com/Nadeen-Gunathilake/IWT-project) | Website(Online games for school kids) | ![](https://img.shields.io/badge/-CSS-0e75b6?style=flat-square) |
-| [**cpc_tracking_api**](https://github.com/Nadeen-Gunathilake/cpc_tracking_api) | No description provided. | ![](https://img.shields.io/badge/-JavaScript-0e75b6?style=flat-square) |
 | [**PAF_Lab02**](https://github.com/Nadeen-Gunathilake/PAF_Lab02) | No description provided. | ![](https://img.shields.io/badge/-HTML-0e75b6?style=flat-square) |
+| [**Inventory-Management-App**](https://github.com/Nadeen-Gunathilake/Inventory-Management-App) | Manage inventory and related tasks | ![](https://img.shields.io/badge/-TypeScript-0e75b6?style=flat-square) |
 
 <!-- PROJECTS:END -->
 
