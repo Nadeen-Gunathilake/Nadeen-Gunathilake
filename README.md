@@ -83,12 +83,12 @@ email: nadeen.guna05@gmail.com
 <!-- PROJECTS:START -->
 | Repository | Description | Language |
 |---|---|---|
-| [**TalentBridge-ATS**](https://github.com/Nadeen-Gunathilake/TalentBridge-ATS) | A Single-Company Applicant Tracking System | ![](https://img.shields.io/badge/-Java-0e75b6?style=flat-square) |
+| [**TalentBridge-ATS-Frontend**](https://github.com/Nadeen-Gunathilake/TalentBridge-ATS-Frontend) | A Single-Company Applicant Tracking System | ![](https://img.shields.io/badge/-N%2FA-0e75b6?style=flat-square) |
+| [**TalentBridge-ATS-Backend**](https://github.com/Nadeen-Gunathilake/TalentBridge-ATS-Backend) | A Single-Company Applicant Tracking System | ![](https://img.shields.io/badge/-Java-0e75b6?style=flat-square) |
 | [**TradeHub**](https://github.com/Nadeen-Gunathilake/TradeHub) | No description provided. | ![](https://img.shields.io/badge/-Java-0e75b6?style=flat-square) |
 | [**Java-Group_Project-OOP-2nd-year-1st-semester-**](https://github.com/Nadeen-Gunathilake/Java-Group_Project-OOP-2nd-year-1st-semester-) | No description provided. | ![](https://img.shields.io/badge/-Java-0e75b6?style=flat-square) |
 | [**noob_backend**](https://github.com/Nadeen-Gunathilake/noob_backend) | No description provided. | ![](https://img.shields.io/badge/-Java-0e75b6?style=flat-square) |
 | [**MiniShop**](https://github.com/Nadeen-Gunathilake/MiniShop) | An E-commerce platform implemented with CI DevOps practices | ![](https://img.shields.io/badge/-JavaScript-0e75b6?style=flat-square) |
-| [**Task_Manager**](https://github.com/Nadeen-Gunathilake/Task_Manager) | To manage tasks | ![](https://img.shields.io/badge/-TypeScript-0e75b6?style=flat-square) |
 
 <!-- PROJECTS:END -->
 
