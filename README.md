@@ -100,6 +100,7 @@ email: nadeen.guna05@gmail.com
 <!-- CONTRIBUTIONS:START -->
 | Pull Request | Repository | Status |
 |---|---|---|
+| [README modified](https://github.com/DhyanMohottie/Lexium/pull/36) | [DhyanMohottie/Lexium](https://github.com/DhyanMohottie/Lexium) |  Merged |
 | [add log messages](https://github.com/DhyanMohottie/Lexium/pull/35) | [DhyanMohottie/Lexium](https://github.com/DhyanMohottie/Lexium) |  Merged |
 | [README file modified](https://github.com/DhyanMohottie/Lexium/pull/34) | [DhyanMohottie/Lexium](https://github.com/DhyanMohottie/Lexium) |  Merged |
 | [feat:Manage Account page and functionality added](https://github.com/DhyanMohottie/Lexium/pull/33) | [DhyanMohottie/Lexium](https://github.com/DhyanMohottie/Lexium) |  Merged |
@@ -107,7 +108,6 @@ email: nadeen.guna05@gmail.com
 | [feat:add billing service](https://github.com/dinna-i/mtit/pull/1) | [dinna-i/mtit](https://github.com/dinna-i/mtit) |  Merged |
 | [style: switch signup page,signup_form colors to theme-aware](https://github.com/DhyanMohottie/Lexium/pull/31) | [DhyanMohottie/Lexium](https://github.com/DhyanMohottie/Lexium) |  Merged |
 | [style: switch chatbot page colors to theme-aware](https://github.com/DhyanMohottie/Lexium/pull/30) | [DhyanMohottie/Lexium](https://github.com/DhyanMohottie/Lexium) |  Merged |
-| [settings page,login page modified](https://github.com/DhyanMohottie/Lexium/pull/29) | [DhyanMohottie/Lexium](https://github.com/DhyanMohottie/Lexium) |  Merged |
 
 <!-- CONTRIBUTIONS:END -->
 
